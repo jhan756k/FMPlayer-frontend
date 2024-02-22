@@ -1,0 +1,27 @@
+.playlist-wrapper {
+  text-decoration: none;
+  color: #000;
+}
+
+.playlist {
+  border: 1px solid #000;
+  border-radius: 10%;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.playlist:hover {
+  box-shadow: 0 0 10px 5px #000;
+  cursor: pointer;
+}
+
+.playlist-image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.playlist-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px;
+}
